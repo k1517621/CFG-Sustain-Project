@@ -1,0 +1,232 @@
+.body{
+  font-family: 'Merriweather', serif;
+}
+
+/* Navbar */
+.navbar{
+  background-color: #145A32;
+  background-color: #19260D !important;
+}
+
+/*Typography*/
+.navbar-nav{
+  font-family: 'Roboto Slab', serif;
+}
+
+.navbar-nav{
+  color: #CDE7C9 !important;
+}
+
+.h1, h1{
+  font-family: 'Roboto Slab', serif;
+  color: #19260D;
+}
+
+.h2, h2{
+  padding-bottom: 10px;
+}
+
+.h5, h5{
+  font-family: 'Merriweather', serif;
+  font-weight: 700;
+  color: #19260D;
+}
+
+.lead{
+  font-family: 'Merriweather', serif;
+  color: #19260D;
+  margin: 12px;
+}
+
+.card-title{
+  font-family: 'Roboto Slab', serif;
+  color: #19260D;
+}
+
+.card-text{
+  font-family: 'Merriweather', serif;
+  color: #19260D;
+}
+
+.carousel-caption .h2, h2{
+  text-transform: uppercase;
+  text-align: center;
+  font-family: 'Roboto Slab', serif;
+}
+
+.carousel-caption p{
+  font-family: 'Merriweather', serif;
+  color: white !important;
+}
+
+.footer p{
+  font-family: 'Merriweather', serif;
+  color: #19260D;
+  color: #CDE7C9 !important;
+  text-align: center;
+}
+
+/*Sections*/
+section {
+  padding: 130px 0;
+}
+
+/*Header*/
+header {
+  padding: 156px 0 100px;
+  background-color: #CDE7C9;
+}
+
+#team{
+  align-items: center;
+}
+
+/*Issues section*/
+#issues{
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.container{
+  text-align: center;
+  color: #19260D;
+  align-items: center;
+}
+
+/*Start of slide section*/
+.carousel-item {
+  height: 100vh;
+  min-height: 350px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.carousel-caption {
+  margin-bottom: 15%;
+}
+
+.drk:after {
+  content:"";
+  display:block;
+  position:absolute;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+  background:#000;
+  opacity:0.3;
+}
+
+/*slide buttons*/
+.btn-light{
+  background-color: white !important;
+  border-color: white !important;
+  color: #19260D !important;
+  border-radius: 50px !important;
+  padding-left: 15px !important;
+  padding-right: 15px !important;
+}
+
+.btn-light:hover{
+  background-color: #19260D !important;
+  border-color: #19260D !important;
+  color: whitesmoke !important;
+}
+/*end of slide section*/
+
+/*Solutions Portfolio*/
+#solutions{
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #CDE7C9;
+}
+
+.overlay:hover {
+  opacity: 0.8;
+}
+
+.card-link{
+  font-family: 'Roboto Slab', serif;
+  color: #19260D;
+  font-size: 30px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+/*Contact*/
+#contact{
+  background-color: #CDE7C9;
+}
+
+.Mainform{
+  padding: 10px 0;
+  font-family: 'Roboto Slab', serif;
+  color: #19260D !important;
+  align-items: center !important;
+}
+
+.form-control{
+  background-color: whitesmoke;
+  /*width: 500px;*/
+}
+
+.select{
+  text-align: start;
+  align-items: flex-start;
+}
+
+/*Sign up button*/
+.btn-primary{
+  background-color: #19260D !important;
+  border-color: #19260D !important;
+  color: white !important;
+  border-radius: 50px !important;
+  padding-left: 15px !important;
+  padding-right: 15px !important;
+}
+
+.btn-primary:hover{
+  background-color: #6DC463 !important;
+  border-color: #6DC463 !important;
+  color: #19260D !important;
+}
+
+/*Footer*/
+.footer{
+  background-color: #19260D;
+}
+
+.copy{
+  margin: 0;
+  padding-top: 13px;
+}
+
+.social-media i{
+  color: #CDE7C9;
+  font-size: 30px;
+  padding-top: 12px;
+  padding-right: 10px;
+}
+
+.social-media i:hover{
+  color: #6DC463;
+}
